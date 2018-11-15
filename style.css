@@ -43,13 +43,13 @@ a:link {
 }
 
 a:visited {
-    color: green;
+    color: hotred;
 }
 
 a:hover {
-    color: hotpink;
+    color: hotred;
 }
 
 a:active {
-    color: blue;
+    color: hotred;
 } 
