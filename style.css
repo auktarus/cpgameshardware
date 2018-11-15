@@ -10,7 +10,6 @@ body {
     align-items: center;
     witdh: 100%;
     margin: auto;
-    background-repeat: no-repeat;
 }
 
 .entry {
@@ -20,7 +19,7 @@ body {
     color: rgb(255, 255, 255);
     display: grid;
     align-items: center;
-    witdh: 90%;
+    width: 90%;
     margin: auto;
     background-repeat: no-repeat;
 }
@@ -60,8 +59,7 @@ h1 {
 .img2 {
     grid-row-start: 2;
     grid-column-start: 1;
-    max-width: 200px;
-    max-height: 200px;
+    width: 80% ;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 50px;
