@@ -46,7 +46,7 @@ header {
     float: left;
 }
 
-.li a {
+.li a, .dropbtn {
     display: block;
     color: white;
     text-align: center;
@@ -54,7 +54,7 @@ header {
     text-decoration: none;
 }
 
-.li a:hover {
+.li a:hover, .dropdown:hover .dropbtn {
     background-color: #111;
 }
 
