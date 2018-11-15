@@ -9,6 +9,8 @@ body {
     color: rgb(255, 255, 255);
     display: grid;
     align-items: center;
+    witdh: 100%;
+    margin: auto;
     grid-template-columns: 300px auto;
     background-repeat: no-repeat;
 }
