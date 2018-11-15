@@ -11,8 +11,14 @@ body {
     align-items: center;
     witdh: 100%;
     margin: auto;
-    grid-template-columns: 300px auto;
     background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgb(102, 0, 0);
+    with: 80%;
+    height: 5%;
+    align-items: center; 
 }
 
 h1 {
@@ -43,8 +49,8 @@ img1 {
 img2 {
     grid-row-start: 2;
     grid-column-start: 1;
-    max-width: 600px;
-    max-height: 400px;
+    max-width: 10%;
+    max-height: 6%px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 50px;
