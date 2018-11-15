@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Playfair+Display:900|Open+Sans');
 
 body {
-    background: rgb(0, 0, 0);
+    background: rgb(64, 64, 64);
     background-image: url('background.jpg');
     background-size: cover;
     padding: 100px;
@@ -10,6 +10,18 @@ body {
     display: grid;
     align-items: center;
     witdh: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.entry {
+    background: rgb(0, 0, 0);
+    padding: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    display: grid;
+    align-items: center;
+    witdh: 90%;
     margin: auto;
     background-repeat: no-repeat;
 }
@@ -36,7 +48,7 @@ h1 {
     transition: background-size 0.25s ease-in;        
 }
 
-img1 {
+.img1 {
     grid-row-start: 2;
     grid-column-start: 1;
     max-width: 200px;
@@ -46,7 +58,7 @@ img1 {
     margin: 50px;
 }
 
-img2 {
+.img2 {
     grid-row-start: 2;
     grid-column-start: 1;
     max-width: 10%;
