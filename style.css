@@ -4,7 +4,6 @@ body {
     background: rgb(64, 64, 64);
     background-image: url('background.jpg');
     background-size: cover;
-    padding: 100px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
     display: grid;
@@ -16,7 +15,7 @@ body {
 
 .entry {
     background: rgb(0, 0, 0);
-    padding: 100px;
+    padding: 0px;
     font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
     display: grid;
