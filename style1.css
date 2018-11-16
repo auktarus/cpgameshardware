@@ -13,7 +13,6 @@ body {
 }
 
 .entry {
-    background: rgb(0, 0, 0);
     padding: 0px;
     background-image: url('Blogeintrag.png');
     background-size: cover;
@@ -23,7 +22,7 @@ body {
     align-items: center;
     width: 90%;
     margin: auto;
-    background-repeat: x;
+    background-repeat: repeat-y;
 }
 
 header {
