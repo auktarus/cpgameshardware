@@ -11,21 +11,17 @@ body {
     margin: auto;
 }
 
-header {
-    background-image: url('Blog1.png'), url('Blog2.png'), url ('Blog3.png';
-    background-repeat: no-repeat, repeat;
+article {
+    background-image: url('Blog1.png'), url ('Blog3.png'), url('Blog2.png');
+    background-repeat: no-repeat, no-repeat, repeat;
     background-size: 100%;
-    background-position: top, 0px 30px, bottom;
+    background-position: top, bottom, 0px 30px;
     margin: auto;
     width: 90%;   
 }
 
-article {
-    background-image: url('Blog3.png'), url('Blog1.png'), url('Blog2.png') ;
-    background-repeat:  no-repeat, no-repeat, repeat-y;
-    background-size: cover;
-    margin: auto;
-    witdh: 90%;   
+section {
+    width: 90%;
 }
 
 .end {
