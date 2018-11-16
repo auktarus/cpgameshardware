@@ -11,22 +11,11 @@ body {
     margin: auto;
 }
 
-main {
-    background: rgb(0, 0, 0);
-    padding: 0px;
-    font-family: 'Open Sans', sans-serif;
-    color: rgb(255, 255, 255);
-    display: grid;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-    background-repeat: no-repeat;
-}
-
 header {
     background-image: url('Blog1.png'), url('Blog2.png');
     background-repeat: no-repeat, repeat-y;
     background-size: 100%;
+    background-position: top, 0px 30px, bottom;
     margin: auto;
     width: 90%;   
 }
