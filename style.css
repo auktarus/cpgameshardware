@@ -25,7 +25,7 @@ main {
 }
 
 header {
-    background-image: url("Blog1.png"), url("Blog2.png"), url("Blog3.png");
+    background-image: url('Blog1.png'), url('Blog2.png'), url('Blog3.png');
     background-repeat: no-repeat, repeat-y, no-repeat;
     background-size: cover;
     margin: auto;
