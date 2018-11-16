@@ -15,13 +15,15 @@ body {
 .entry {
     background: rgb(0, 0, 0);
     padding: 0px;
+    background-image: url('Blogeintrag.png');
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
     display: grid;
     align-items: center;
     width: 90%;
     margin: auto;
-    background-repeat: no-repeat;
+    background-repeat: x;
 }
 
 header {
