@@ -13,7 +13,7 @@ body {
 
 header {
     background-image: url('Blog1.png'), url('Blog2.png');
-    background-repeat: no-repeat, repeat-y;
+    background-repeat: no-repeat, repeat;
     background-size: 100%;
     background-position: top, 0px 30px, bottom;
     margin: auto;
