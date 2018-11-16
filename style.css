@@ -2,7 +2,6 @@
 
 body {
     background: rgb(64, 64, 64);
-    background-image: url('background.jpg');
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
     color: rgb(255, 255, 255);
