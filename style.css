@@ -7,7 +7,7 @@ body {
     color: rgb(255, 255, 255);
     display: grid;
     align-items: center;
-    witdh: 100%;
+    width: 100%;
     margin: auto;
 }
 
@@ -24,13 +24,29 @@ main {
 }
 
 header {
-    background-image: url('Blog1.png'), url('Blog2.png'), url('Blog3.png');
-    background-repeat: no-repeat, repeat-y, no-repeat;
+    background-image: url('Blog1.png'), url('Blog2.png');
+    background-repeat: no-repeat, repeat-y;
+    background-size: 100%;
+    margin: auto;
+    width: 90%;   
+}
+
+article {
+    background-image: url('Blog3.png'), url('Blog1.png'), url('Blog2.png') ;
+    background-repeat:  no-repeat, no-repeat, repeat-y;
     background-size: cover;
     margin: auto;
     witdh: 90%;   
 }
-    
+
+.end {
+    background-image: url('Blog3.png');
+    background-repeat:  no-repeat;
+    background-size: cover;
+    margin: auto;
+    witdh: 90%;   
+}
+
 ul {
     list-style-type: none;
     margin: 0;
