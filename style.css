@@ -11,6 +11,11 @@ body {
     margin: auto;
 }
 
+hr {
+    color: black;
+    background-color: black;
+}
+
 article {
     background-image: url('Blog1.png'), url('Blog3.png'), url('Blog2.png');
     background-repeat: no-repeat, no-repeat, repeat;
