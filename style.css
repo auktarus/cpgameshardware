@@ -16,6 +16,10 @@ hr {
     background-color: black;
 }
 
+p {
+    clear:both;
+}
+
 article {
     background-image: url('Blog1.png'), url('Blog3.png'), url('Blog2.png');
     background-repeat: no-repeat, no-repeat, repeat;
