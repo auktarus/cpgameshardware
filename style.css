@@ -31,9 +31,6 @@ div.polaroid {
     float: left;
 }
 
-div.polaroid:last-child {
-    margin-right: 0;
-}
 img {
     width: 100%;
     height: 100%;
